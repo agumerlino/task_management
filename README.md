@@ -3,12 +3,11 @@
 Este proyecto es una aplicación de gestión de tareas que incluye un **frontend** desarrollado con React y un **backend** construido con Node.js y Express. La app permite a los usuarios autenticarse, gestionar tareas con filtros y paginación, y realizar operaciones CRUD.
 
 ## Tabla de Contenidos
-1. [Requisitos Previos]
-2. [Configuración del Backend]
-3. [Configuración del Frontend]
-4. [Levantar el Proyecto]
-5. [Endpoints del Backend]
-
+1. [Requisitos Previos](#requisitos-previos)
+2. [Configuración del Backend](#configuración-del-backend)
+3. [Configuración del Frontend](#configuración-del-frontend)
+4. [Levantar el Proyecto](#levantar-el-proyecto)
+5. [Endpoints del Backend](#endpoints-del-backend)
 
 ---
 
