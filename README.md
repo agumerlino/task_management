@@ -25,19 +25,19 @@ Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en
 2. Configuración del Backend
 
 - Clonar el repositorio:
-   ```bash
+   
    git clone https://github.com/agumerlino/task_management.git
    cd node/backend
 
  Instalar dependencias: Ejecuta el siguiente comando en el directorio del backend:
-   ```bash
+   
    npm install
 
 - Configurar variables de entorno:
 
    Crea un archivo .env en el directorio del backend.
    Agrega las siguientes variables al archivo .env:
-```bash
+
 PORT=4000
 JWT_SECRET=tu_secreto_super_seguro
 DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre_de_tu_base
@@ -47,30 +47,30 @@ DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre_de_tu_base
 - Configurar la base de datos:
 
 Crea la base de datos en PostgreSQL con el nombre que configuraste en .env:
-   ```bash
+   
    CREATE DATABASE nombre_de_tu_base;
 
 - Ejecutar migraciones:
 
 Para crear las tablas necesarias en la base de datos, ejecuta:
-   ```bash
+   
    npx knex migrate:latest
 
 
 3. Configuracion del Frontend
 
 - Ir al directorio del frontend:
-  ```bash
+  
   cd ../frontend
 
 - Instalar dependencias:
-  ```bash
+  
   npm install
 
 - Configurar variables de entorno:
 
   Crea un archivo .env en el directorio frontend con el siguiente contenido:
-```bash
+
 REACT_APP_API_URL=(URL DE TU BACKEND)
 
 
@@ -81,14 +81,14 @@ REACT_APP_API_URL=(URL DE TU BACKEND)
    Ejecuta el siguiente comando en el directorio de tu backend:
 
    Comando para producccion:
-```bash
+
 npm start
    Comando para desarrollo:
 ```bash
 npm run dev
 
 - Levantar el servidor frontend: 
-   ```bash
+ 
    npm start
 
 5. Endpoints del Backend:
