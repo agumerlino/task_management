@@ -26,7 +26,7 @@ Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en
 
 - Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/task-manager-app.git
+   git clone https://github.com/agumerlino/task_management.git
    cd node/backend
 
  Instalar dependencias: Ejecuta el siguiente comando en el directorio del backend:
