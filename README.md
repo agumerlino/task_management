@@ -81,7 +81,7 @@ Frontend (/frontned):
 
   Crea un archivo .env en el directorio frontend con el siguiente contenido:
 
-REACT_APP_API_URL=(URL DE TU BACKEND)
+REACT_APP_BACKEND_URL=(URL DE TU BACKEND)
 
 ---
 
