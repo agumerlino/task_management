@@ -27,7 +27,8 @@ Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en
 
 - Clonar el repositorio:
    
-   git clone https://github.com/agumerlino/task_management.git
+  git clone -b master https://github.com/agumerlino/task_management.git
+
 
 Dependencias necesarias: 
 Backend (/backend):
