@@ -9,26 +9,6 @@ Este proyecto es una aplicación de gestión de tareas que incluye un **frontend
 4. [Levantar el Proyecto]
 5. [Endpoints del Backend]
 
----
-
-Dependencias necesarias: 
-Backend:
-
-   - **express**
-   - **knex**
-   - **pg**
-   - **jsonwebtoken**
-
-   Comando: npm install express knex pg jsonwebtoken
-
-Frontend: 
-
-   - **react**
-   - **react-dom**
-   - **axios**
-   - **react-router-dom**
-
-   Comando: npm install react react-dom axios react-router-dom
 
 ---
 
@@ -48,12 +28,16 @@ Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en
 - Clonar el repositorio:
    
    git clone https://github.com/agumerlino/task_management.git
-  
-   cd node/backend
 
- Instalar dependencias: Ejecuta el siguiente comando en el directorio del backend:
-   
-   npm install
+Dependencias necesarias: 
+Backend (/backend):
+
+   - **express**
+   - **knex**
+   - **pg**
+   - **jsonwebtoken**
+
+   Comando: npm install express knex pg jsonwebtoken
 
 - Configurar variables de entorno:
 
@@ -82,13 +66,15 @@ Para crear las tablas necesarias en la base de datos, ejecuta:
 
 3. Configuracion del Frontend
 
-- Ir al directorio del frontend:
-  
-  cd ../frontend
+Dependencias necesarias: 
+Frontend (/frontned): 
 
-- Instalar dependencias:
-  
-  npm install
+   - **react**
+   - **react-dom**
+   - **axios**
+   - **react-router-dom**
+
+   Comando: npm install react react-dom axios react-router-dom
 
 - Configurar variables de entorno:
 
@@ -113,8 +99,8 @@ npm start
 npm run dev
 
 - Levantar el servidor frontend: 
- 
-   npm start
+
+npm start
 
 ---
 
