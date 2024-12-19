@@ -78,6 +78,7 @@ Para crear las tablas necesarias en la base de datos, ejecuta:
    
    npx knex migrate:latest
 
+---
 
 3. Configuracion del Frontend
 
@@ -95,6 +96,7 @@ Para crear las tablas necesarias en la base de datos, ejecuta:
 
 REACT_APP_API_URL=(URL DE TU BACKEND)
 
+---
 
 4. Levantar el proyecto
 
@@ -113,6 +115,8 @@ npm run dev
 - Levantar el servidor frontend: 
  
    npm start
+
+---
 
 5. Endpoints del Backend:
 
