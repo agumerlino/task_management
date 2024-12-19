@@ -11,6 +11,27 @@ Este proyecto es una aplicación de gestión de tareas que incluye un **frontend
 
 ---
 
+Dependencias necesarias: 
+Backend:
+
+   - **express**
+   - **knex**
+   - **pg**
+   - **jsonwebtoken**
+
+   Comando: npm install express knex pg jsonwebtoken
+
+Frontend: 
+
+   - **react**
+   - **react-dom**
+   - **axios**
+   - **react-router-dom**
+
+   Comando: npm install react react-dom axios react-router-dom
+
+---
+
 1. Requisitos Previos
 
 Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en tu sistema:
@@ -27,6 +48,7 @@ Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en
 - Clonar el repositorio:
    
    git clone https://github.com/agumerlino/task_management.git
+  
    cd node/backend
 
  Instalar dependencias: Ejecuta el siguiente comando en el directorio del backend:
