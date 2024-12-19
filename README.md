@@ -11,7 +11,7 @@ Este proyecto es una aplicación de gestión de tareas que incluye un **frontend
 
 ---
 
-##1. Requisitos Previos
+## 1. Requisitos Previos
 
 Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en tu sistema:
 
@@ -22,7 +22,7 @@ Antes de comenzar, asegúrate de tener las siguientes herramientas instaladas en
 
 ---
 
-##2. Configuración del Backend
+## 2. Configuración del Backend
 
 - Clonar el repositorio:
    
@@ -64,7 +64,7 @@ Para crear las tablas necesarias en la base de datos, ejecuta:
 
 ---
 
-##3. Configuracion del Frontend
+## 3. Configuracion del Frontend
 
 Dependencias necesarias: 
 Frontend (/frontned): 
@@ -84,7 +84,7 @@ REACT_APP_BACKEND_URL=(URL DE TU BACKEND)
 
 ---
 
-##4. Levantar el proyecto
+## 4. Levantar el proyecto
 
 - Levantar el servidor backend: 
 
@@ -104,7 +104,7 @@ npm start
 
 ---
 
-##5. Endpoints del Backend:
+## 5. Endpoints del Backend:
 
 1. POST /api/auth/login
 Autenticación de usuario y generación de token JWT.
