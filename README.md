@@ -90,17 +90,13 @@ REACT_APP_BACKEND_URL=(URL DE TU BACKEND)
 
    Ejecuta el siguiente comando en el directorio de tu backend:
 
-   Comando para producccion:
-  
-npm start
+   Comando para producccion: npm start
 
-   Comando para desarrollo:
-
-npm run dev
+   Comando para desarrollo: npm run dev
 
 - Levantar el servidor frontend: 
 
-npm start
+   npm start
 
 ---
 
